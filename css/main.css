@@ -1,0 +1,122 @@
+.hidden {
+    display: none;
+}
+
+#heading {
+    background-color: #ccc;
+  }
+  
+.box {
+    background-color: powderblue;
+    color: rgb(27, 27, 27);
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+.thin-box {
+    background-color: #fff;
+    opacity: 0.7;
+    border: 0.5px solid #000;
+    margin: 10px;
+    padding: 15px;
+  }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px
+}
+
+#main h2{
+    font-family: 'Sanchez', serif; 
+    font-size: 24px; 
+    font-weight: bold; 
+    color: #333; 
+    text-align: center; 
+    text-transform: uppercase; 
+    margin: 10px 0; 
+    padding: 5px; 
+}
+
+.icons-section {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+    padding: 20px;
+}
+
+.icon-box {
+    text-align: center;
+}
+
+.icon {
+    width: 80px;
+    cursor: pointer;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.icon:hover {
+    transform: scale(1.2);
+    filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+}
+
+
+  @media screen and (min-width: 768px) {
+    .icons-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center;
+        padding: 20px;
+    }
+    
+    .icon-box {
+        text-align: center;
+    }
+    
+    .icon {
+        width: 80px;
+        cursor: pointer;
+        transition: transform 0.3s, filter 0.3s;
+    }
+    
+    .icon:hover {
+        transform: scale(1.2);
+        filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+    }
+    
+  }
+
+
+  
+  
+  @media screen and (min-width: 1200px) {
+    .icons-section {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        justify-items: center;
+        padding: 20px;
+    }
+    
+    .icon-box {
+        text-align: center;
+    }
+    
+    .icon {
+        width: 80px;
+        cursor: pointer;
+        transition: transform 0.3s, filter 0.3s;
+    }
+    
+    .icon:hover {
+        transform: scale(1.2);
+        filter: drop-shadow(4px 4px 8px rgba(0, 0, 0, 0.3));
+    }
+    
+  }
+  
